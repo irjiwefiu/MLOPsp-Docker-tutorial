@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 5000
 # define env variable
-ENV FLASK_APP==app.py
+ENV FLASK_APP app.py
 
 CMD ["flask","run","--host=0.0.0.0"]
 
